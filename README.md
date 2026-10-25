@@ -19,7 +19,22 @@ Verified on Omarchy **4.0.6-1**, its bundled Quickshell **0.3.2**, and a horizon
 
 ## Install
 
-From a directory of your choice, clone the repository and run the installer as your normal user:
+Add the plugin through Omarchy, then run its one-time setup as your normal user:
+
+```bash
+omarchy plugin add https://github.com/lilfrogdev/omarchy-pokespaces.git --yes
+python3 ~/.config/omarchy/plugins/lilfrogdev.pokespaces/scripts/install.py
+```
+
+`omarchy plugin add` downloads and validates the plugin. It does not run plugin install scripts. The second command replaces the stock `omarchy.workspaces` indicator at its existing position, installs the `pokespaces` CLI, and reloads the shell configuration. Running setup once is required; ordinary use does not require running it again.
+
+Setup creates a timestamped `shell.json.before-pokespaces-*` backup and preserves unrelated bar entries and settings. It installs the CLI in `~/.local/bin/`; keep that directory on your `PATH`. No sudo, pip packages, or image conversion tools are needed.
+
+The installer expects a stock workspace widget or an existing Pokéspaces widget. If you use a different workspace plugin, restore the stock widget before installing.
+
+### Fallback: install from a checkout
+
+If native plugin installation is unavailable, or you use a custom `XDG_CONFIG_HOME`, clone into a directory of your choice:
 
 ```bash
 git clone https://github.com/lilfrogdev/omarchy-pokespaces.git
@@ -27,20 +42,7 @@ cd omarchy-pokespaces
 python3 scripts/install.py
 ```
 
-The installer validates the plugin, copies it into your Omarchy plugin directory, replaces the stock `omarchy.workspaces` widget at its existing position, and reloads the shell configuration. It creates a timestamped `shell.json.before-pokespaces-*` backup and preserves unrelated bar entries and settings. Running it again updates the installed copy.
-
-It also installs the `pokespaces` command in `~/.local/bin/`. Keep that directory on your `PATH`. No sudo, pip packages, or image conversion tools are needed.
-
-The installer expects a stock workspace widget or an existing Pokéspaces widget. If you use a different workspace plugin, restore the stock widget before installing.
-
-For Omarchy's native Git-managed installation on a standard configuration:
-
-```bash
-omarchy plugin add https://github.com/lilfrogdev/omarchy-pokespaces.git --yes
-python3 ~/.config/omarchy/plugins/lilfrogdev.pokespaces/scripts/install.py
-```
-
-The second command performs the workspace replacement and CLI installation. For a custom `XDG_CONFIG_HOME`, use the checkout installation above; the installer respects it.
+The installer copies the checkout into your Omarchy plugin directory and performs the same setup. It respects `XDG_CONFIG_HOME`; Omarchy's current `plugin add` command uses `~/.config/omarchy/plugins/`.
 
 ## Read your workspaces
 
