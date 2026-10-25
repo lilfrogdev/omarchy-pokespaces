@@ -1,0 +1,3387 @@
+{
+  "revision": "97a7832d307311c0e1c6ea9035308bf80cc94f81",
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/9.png"
+    },
+    {
+      "id": 10,
+      "name": "Caterpie",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/10.png"
+    },
+    {
+      "id": 11,
+      "name": "Metapod",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/11.png"
+    },
+    {
+      "id": 12,
+      "name": "Butterfree",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/12.png"
+    },
+    {
+      "id": 13,
+      "name": "Weedle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/13.png"
+    },
+    {
+      "id": 14,
+      "name": "Kakuna",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/14.png"
+    },
+    {
+      "id": 15,
+      "name": "Beedrill",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/15.png"
+    },
+    {
+      "id": 16,
+      "name": "Pidgey",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/16.png"
+    },
+    {
+      "id": 17,
+      "name": "Pidgeotto",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/17.png"
+    },
+    {
+      "id": 18,
+      "name": "Pidgeot",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/18.png"
+    },
+    {
+      "id": 19,
+      "name": "Rattata",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/19.png"
+    },
+    {
+      "id": 20,
+      "name": "Raticate",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/20.png"
+    },
+    {
+      "id": 21,
+      "name": "Spearow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/21.png"
+    },
+    {
+      "id": 22,
+      "name": "Fearow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/22.png"
+    },
+    {
+      "id": 23,
+      "name": "Ekans",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/23.png"
+    },
+    {
+      "id": 24,
+      "name": "Arbok",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/24.png"
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/25.png"
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/26.png"
+    },
+    {
+      "id": 27,
+      "name": "Sandshrew",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/27.png"
+    },
+    {
+      "id": 28,
+      "name": "Sandslash",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/28.png"
+    },
+    {
+      "id": 29,
+      "name": "Nidoran♀",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/29.png"
+    },
+    {
+      "id": 30,
+      "name": "Nidorina",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/30.png"
+    },
+    {
+      "id": 31,
+      "name": "Nidoqueen",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/31.png"
+    },
+    {
+      "id": 32,
+      "name": "Nidoran♂",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/32.png"
+    },
+    {
+      "id": 33,
+      "name": "Nidorino",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/33.png"
+    },
+    {
+      "id": 34,
+      "name": "Nidoking",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/34.png"
+    },
+    {
+      "id": 35,
+      "name": "Clefairy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/35.png"
+    },
+    {
+      "id": 36,
+      "name": "Clefable",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/36.png"
+    },
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/37.png"
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/38.png"
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/39.png"
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/40.png"
+    },
+    {
+      "id": 41,
+      "name": "Zubat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/41.png"
+    },
+    {
+      "id": 42,
+      "name": "Golbat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/42.png"
+    },
+    {
+      "id": 43,
+      "name": "Oddish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/43.png"
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/44.png"
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/45.png"
+    },
+    {
+      "id": 46,
+      "name": "Paras",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/46.png"
+    },
+    {
+      "id": 47,
+      "name": "Parasect",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/47.png"
+    },
+    {
+      "id": 48,
+      "name": "Venonat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/48.png"
+    },
+    {
+      "id": 49,
+      "name": "Venomoth",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/49.png"
+    },
+    {
+      "id": 50,
+      "name": "Diglett",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/50.png"
+    },
+    {
+      "id": 51,
+      "name": "Dugtrio",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/51.png"
+    },
+    {
+      "id": 52,
+      "name": "Meowth",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/52.png"
+    },
+    {
+      "id": 53,
+      "name": "Persian",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/53.png"
+    },
+    {
+      "id": 54,
+      "name": "Psyduck",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/54.png"
+    },
+    {
+      "id": 55,
+      "name": "Golduck",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/55.png"
+    },
+    {
+      "id": 56,
+      "name": "Mankey",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/56.png"
+    },
+    {
+      "id": 57,
+      "name": "Primeape",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/57.png"
+    },
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/58.png"
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/59.png"
+    },
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/60.png"
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/61.png"
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/62.png"
+    },
+    {
+      "id": 63,
+      "name": "Abra",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/63.png"
+    },
+    {
+      "id": 64,
+      "name": "Kadabra",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/64.png"
+    },
+    {
+      "id": 65,
+      "name": "Alakazam",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/65.png"
+    },
+    {
+      "id": 66,
+      "name": "Machop",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/66.png"
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/67.png"
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/68.png"
+    },
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/69.png"
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/70.png"
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/71.png"
+    },
+    {
+      "id": 72,
+      "name": "Tentacool",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/72.png"
+    },
+    {
+      "id": 73,
+      "name": "Tentacruel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/73.png"
+    },
+    {
+      "id": 74,
+      "name": "Geodude",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/74.png"
+    },
+    {
+      "id": 75,
+      "name": "Graveler",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/75.png"
+    },
+    {
+      "id": 76,
+      "name": "Golem",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/76.png"
+    },
+    {
+      "id": 77,
+      "name": "Ponyta",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/77.png"
+    },
+    {
+      "id": 78,
+      "name": "Rapidash",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/78.png"
+    },
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/79.png"
+    },
+    {
+      "id": 80,
+      "name": "Slowbro",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/80.png"
+    },
+    {
+      "id": 81,
+      "name": "Magnemite",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/81.png"
+    },
+    {
+      "id": 82,
+      "name": "Magneton",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/82.png"
+    },
+    {
+      "id": 83,
+      "name": "Farfetch’d",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/83.png"
+    },
+    {
+      "id": 84,
+      "name": "Doduo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/84.png"
+    },
+    {
+      "id": 85,
+      "name": "Dodrio",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/85.png"
+    },
+    {
+      "id": 86,
+      "name": "Seel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/86.png"
+    },
+    {
+      "id": 87,
+      "name": "Dewgong",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/87.png"
+    },
+    {
+      "id": 88,
+      "name": "Grimer",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/88.png"
+    },
+    {
+      "id": 89,
+      "name": "Muk",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/89.png"
+    },
+    {
+      "id": 90,
+      "name": "Shellder",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/90.png"
+    },
+    {
+      "id": 91,
+      "name": "Cloyster",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/91.png"
+    },
+    {
+      "id": 92,
+      "name": "Gastly",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/92.png"
+    },
+    {
+      "id": 93,
+      "name": "Haunter",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/93.png"
+    },
+    {
+      "id": 94,
+      "name": "Gengar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/94.png"
+    },
+    {
+      "id": 95,
+      "name": "Onix",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/95.png"
+    },
+    {
+      "id": 96,
+      "name": "Drowzee",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/96.png"
+    },
+    {
+      "id": 97,
+      "name": "Hypno",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/97.png"
+    },
+    {
+      "id": 98,
+      "name": "Krabby",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/98.png"
+    },
+    {
+      "id": 99,
+      "name": "Kingler",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/99.png"
+    },
+    {
+      "id": 100,
+      "name": "Voltorb",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/100.png"
+    },
+    {
+      "id": 101,
+      "name": "Electrode",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/101.png"
+    },
+    {
+      "id": 102,
+      "name": "Exeggcute",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/102.png"
+    },
+    {
+      "id": 103,
+      "name": "Exeggutor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/103.png"
+    },
+    {
+      "id": 104,
+      "name": "Cubone",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/104.png"
+    },
+    {
+      "id": 105,
+      "name": "Marowak",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/105.png"
+    },
+    {
+      "id": 106,
+      "name": "Hitmonlee",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/106.png"
+    },
+    {
+      "id": 107,
+      "name": "Hitmonchan",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/107.png"
+    },
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/108.png"
+    },
+    {
+      "id": 109,
+      "name": "Koffing",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/109.png"
+    },
+    {
+      "id": 110,
+      "name": "Weezing",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/110.png"
+    },
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/111.png"
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/112.png"
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/113.png"
+    },
+    {
+      "id": 114,
+      "name": "Tangela",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/114.png"
+    },
+    {
+      "id": 115,
+      "name": "Kangaskhan",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/115.png"
+    },
+    {
+      "id": 116,
+      "name": "Horsea",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/116.png"
+    },
+    {
+      "id": 117,
+      "name": "Seadra",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/117.png"
+    },
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/118.png"
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/119.png"
+    },
+    {
+      "id": 120,
+      "name": "Staryu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/120.png"
+    },
+    {
+      "id": 121,
+      "name": "Starmie",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/121.png"
+    },
+    {
+      "id": 122,
+      "name": "Mr. Mime",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/122.png"
+    },
+    {
+      "id": 123,
+      "name": "Scyther",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/123.png"
+    },
+    {
+      "id": 124,
+      "name": "Jynx",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/124.png"
+    },
+    {
+      "id": 125,
+      "name": "Electabuzz",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/125.png"
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/126.png"
+    },
+    {
+      "id": 127,
+      "name": "Pinsir",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/127.png"
+    },
+    {
+      "id": 128,
+      "name": "Tauros",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/128.png"
+    },
+    {
+      "id": 129,
+      "name": "Magikarp",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/129.png"
+    },
+    {
+      "id": 130,
+      "name": "Gyarados",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/130.png"
+    },
+    {
+      "id": 131,
+      "name": "Lapras",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/131.png"
+    },
+    {
+      "id": 132,
+      "name": "Ditto",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/132.png"
+    },
+    {
+      "id": 133,
+      "name": "Eevee",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/133.png"
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/134.png"
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/135.png"
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/136.png"
+    },
+    {
+      "id": 137,
+      "name": "Porygon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/137.png"
+    },
+    {
+      "id": 138,
+      "name": "Omanyte",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/138.png"
+    },
+    {
+      "id": 139,
+      "name": "Omastar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/139.png"
+    },
+    {
+      "id": 140,
+      "name": "Kabuto",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/140.png"
+    },
+    {
+      "id": 141,
+      "name": "Kabutops",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/141.png"
+    },
+    {
+      "id": 142,
+      "name": "Aerodactyl",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/142.png"
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/143.png"
+    },
+    {
+      "id": 144,
+      "name": "Articuno",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/144.png"
+    },
+    {
+      "id": 145,
+      "name": "Zapdos",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/145.png"
+    },
+    {
+      "id": 146,
+      "name": "Moltres",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/146.png"
+    },
+    {
+      "id": 147,
+      "name": "Dratini",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/147.png"
+    },
+    {
+      "id": 148,
+      "name": "Dragonair",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/148.png"
+    },
+    {
+      "id": 149,
+      "name": "Dragonite",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/149.png"
+    },
+    {
+      "id": 150,
+      "name": "Mewtwo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/150.png"
+    },
+    {
+      "id": 151,
+      "name": "Mew",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/151.png"
+    },
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/152.png"
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/153.png"
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/154.png"
+    },
+    {
+      "id": 155,
+      "name": "Cyndaquil",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/155.png"
+    },
+    {
+      "id": 156,
+      "name": "Quilava",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/156.png"
+    },
+    {
+      "id": 157,
+      "name": "Typhlosion",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/157.png"
+    },
+    {
+      "id": 158,
+      "name": "Totodile",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/158.png"
+    },
+    {
+      "id": 159,
+      "name": "Croconaw",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/159.png"
+    },
+    {
+      "id": 160,
+      "name": "Feraligatr",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/160.png"
+    },
+    {
+      "id": 161,
+      "name": "Sentret",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/161.png"
+    },
+    {
+      "id": 162,
+      "name": "Furret",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/162.png"
+    },
+    {
+      "id": 163,
+      "name": "Hoothoot",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/163.png"
+    },
+    {
+      "id": 164,
+      "name": "Noctowl",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/164.png"
+    },
+    {
+      "id": 165,
+      "name": "Ledyba",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/165.png"
+    },
+    {
+      "id": 166,
+      "name": "Ledian",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/166.png"
+    },
+    {
+      "id": 167,
+      "name": "Spinarak",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/167.png"
+    },
+    {
+      "id": 168,
+      "name": "Ariados",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/168.png"
+    },
+    {
+      "id": 169,
+      "name": "Crobat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/169.png"
+    },
+    {
+      "id": 170,
+      "name": "Chinchou",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/170.png"
+    },
+    {
+      "id": 171,
+      "name": "Lanturn",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/171.png"
+    },
+    {
+      "id": 172,
+      "name": "Pichu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/172.png"
+    },
+    {
+      "id": 173,
+      "name": "Cleffa",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/173.png"
+    },
+    {
+      "id": 174,
+      "name": "Igglybuff",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/174.png"
+    },
+    {
+      "id": 175,
+      "name": "Togepi",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/175.png"
+    },
+    {
+      "id": 176,
+      "name": "Togetic",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/176.png"
+    },
+    {
+      "id": 177,
+      "name": "Natu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/177.png"
+    },
+    {
+      "id": 178,
+      "name": "Xatu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/178.png"
+    },
+    {
+      "id": 179,
+      "name": "Mareep",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/179.png"
+    },
+    {
+      "id": 180,
+      "name": "Flaaffy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/180.png"
+    },
+    {
+      "id": 181,
+      "name": "Ampharos",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/181.png"
+    },
+    {
+      "id": 182,
+      "name": "Bellossom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/182.png"
+    },
+    {
+      "id": 183,
+      "name": "Marill",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/183.png"
+    },
+    {
+      "id": 184,
+      "name": "Azumarill",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/184.png"
+    },
+    {
+      "id": 185,
+      "name": "Sudowoodo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/185.png"
+    },
+    {
+      "id": 186,
+      "name": "Politoed",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/186.png"
+    },
+    {
+      "id": 187,
+      "name": "Hoppip",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/187.png"
+    },
+    {
+      "id": 188,
+      "name": "Skiploom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/188.png"
+    },
+    {
+      "id": 189,
+      "name": "Jumpluff",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/189.png"
+    },
+    {
+      "id": 190,
+      "name": "Aipom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/190.png"
+    },
+    {
+      "id": 191,
+      "name": "Sunkern",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/191.png"
+    },
+    {
+      "id": 192,
+      "name": "Sunflora",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/192.png"
+    },
+    {
+      "id": 193,
+      "name": "Yanma",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/193.png"
+    },
+    {
+      "id": 194,
+      "name": "Wooper",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/194.png"
+    },
+    {
+      "id": 195,
+      "name": "Quagsire",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/195.png"
+    },
+    {
+      "id": 196,
+      "name": "Espeon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/196.png"
+    },
+    {
+      "id": 197,
+      "name": "Umbreon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/197.png"
+    },
+    {
+      "id": 198,
+      "name": "Murkrow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/198.png"
+    },
+    {
+      "id": 199,
+      "name": "Slowking",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/199.png"
+    },
+    {
+      "id": 200,
+      "name": "Misdreavus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/200.png"
+    },
+    {
+      "id": 201,
+      "name": "Unown",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/201.png"
+    },
+    {
+      "id": 202,
+      "name": "Wobbuffet",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/202.png"
+    },
+    {
+      "id": 203,
+      "name": "Girafarig",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/203.png"
+    },
+    {
+      "id": 204,
+      "name": "Pineco",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/204.png"
+    },
+    {
+      "id": 205,
+      "name": "Forretress",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/205.png"
+    },
+    {
+      "id": 206,
+      "name": "Dunsparce",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/206.png"
+    },
+    {
+      "id": 207,
+      "name": "Gligar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/207.png"
+    },
+    {
+      "id": 208,
+      "name": "Steelix",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/208.png"
+    },
+    {
+      "id": 209,
+      "name": "Snubbull",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/209.png"
+    },
+    {
+      "id": 210,
+      "name": "Granbull",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/210.png"
+    },
+    {
+      "id": 211,
+      "name": "Qwilfish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/211.png"
+    },
+    {
+      "id": 212,
+      "name": "Scizor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/212.png"
+    },
+    {
+      "id": 213,
+      "name": "Shuckle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/213.png"
+    },
+    {
+      "id": 214,
+      "name": "Heracross",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/214.png"
+    },
+    {
+      "id": 215,
+      "name": "Sneasel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/215.png"
+    },
+    {
+      "id": 216,
+      "name": "Teddiursa",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/216.png"
+    },
+    {
+      "id": 217,
+      "name": "Ursaring",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/217.png"
+    },
+    {
+      "id": 218,
+      "name": "Slugma",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/218.png"
+    },
+    {
+      "id": 219,
+      "name": "Magcargo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/219.png"
+    },
+    {
+      "id": 220,
+      "name": "Swinub",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/220.png"
+    },
+    {
+      "id": 221,
+      "name": "Piloswine",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/221.png"
+    },
+    {
+      "id": 222,
+      "name": "Corsola",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/222.png"
+    },
+    {
+      "id": 223,
+      "name": "Remoraid",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/223.png"
+    },
+    {
+      "id": 224,
+      "name": "Octillery",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/224.png"
+    },
+    {
+      "id": 225,
+      "name": "Delibird",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/225.png"
+    },
+    {
+      "id": 226,
+      "name": "Mantine",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/226.png"
+    },
+    {
+      "id": 227,
+      "name": "Skarmory",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/227.png"
+    },
+    {
+      "id": 228,
+      "name": "Houndour",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/228.png"
+    },
+    {
+      "id": 229,
+      "name": "Houndoom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/229.png"
+    },
+    {
+      "id": 230,
+      "name": "Kingdra",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/230.png"
+    },
+    {
+      "id": 231,
+      "name": "Phanpy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/231.png"
+    },
+    {
+      "id": 232,
+      "name": "Donphan",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/232.png"
+    },
+    {
+      "id": 233,
+      "name": "Porygon2",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/233.png"
+    },
+    {
+      "id": 234,
+      "name": "Stantler",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/234.png"
+    },
+    {
+      "id": 235,
+      "name": "Smeargle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/235.png"
+    },
+    {
+      "id": 236,
+      "name": "Tyrogue",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/236.png"
+    },
+    {
+      "id": 237,
+      "name": "Hitmontop",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/237.png"
+    },
+    {
+      "id": 238,
+      "name": "Smoochum",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/238.png"
+    },
+    {
+      "id": 239,
+      "name": "Elekid",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/239.png"
+    },
+    {
+      "id": 240,
+      "name": "Magby",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/240.png"
+    },
+    {
+      "id": 241,
+      "name": "Miltank",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/241.png"
+    },
+    {
+      "id": 242,
+      "name": "Blissey",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/242.png"
+    },
+    {
+      "id": 243,
+      "name": "Raikou",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/243.png"
+    },
+    {
+      "id": 244,
+      "name": "Entei",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/244.png"
+    },
+    {
+      "id": 245,
+      "name": "Suicune",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/245.png"
+    },
+    {
+      "id": 246,
+      "name": "Larvitar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/246.png"
+    },
+    {
+      "id": 247,
+      "name": "Pupitar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/247.png"
+    },
+    {
+      "id": 248,
+      "name": "Tyranitar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/248.png"
+    },
+    {
+      "id": 249,
+      "name": "Lugia",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/249.png"
+    },
+    {
+      "id": 250,
+      "name": "Ho-Oh",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/250.png"
+    },
+    {
+      "id": 251,
+      "name": "Celebi",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/251.png"
+    },
+    {
+      "id": 252,
+      "name": "Treecko",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/252.png"
+    },
+    {
+      "id": 253,
+      "name": "Grovyle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/253.png"
+    },
+    {
+      "id": 254,
+      "name": "Sceptile",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/254.png"
+    },
+    {
+      "id": 255,
+      "name": "Torchic",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/255.png"
+    },
+    {
+      "id": 256,
+      "name": "Combusken",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/256.png"
+    },
+    {
+      "id": 257,
+      "name": "Blaziken",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/257.png"
+    },
+    {
+      "id": 258,
+      "name": "Mudkip",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/258.png"
+    },
+    {
+      "id": 259,
+      "name": "Marshtomp",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/259.png"
+    },
+    {
+      "id": 260,
+      "name": "Swampert",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/260.png"
+    },
+    {
+      "id": 261,
+      "name": "Poochyena",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/261.png"
+    },
+    {
+      "id": 262,
+      "name": "Mightyena",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/262.png"
+    },
+    {
+      "id": 263,
+      "name": "Zigzagoon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/263.png"
+    },
+    {
+      "id": 264,
+      "name": "Linoone",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/264.png"
+    },
+    {
+      "id": 265,
+      "name": "Wurmple",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/265.png"
+    },
+    {
+      "id": 266,
+      "name": "Silcoon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/266.png"
+    },
+    {
+      "id": 267,
+      "name": "Beautifly",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/267.png"
+    },
+    {
+      "id": 268,
+      "name": "Cascoon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/268.png"
+    },
+    {
+      "id": 269,
+      "name": "Dustox",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/269.png"
+    },
+    {
+      "id": 270,
+      "name": "Lotad",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/270.png"
+    },
+    {
+      "id": 271,
+      "name": "Lombre",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/271.png"
+    },
+    {
+      "id": 272,
+      "name": "Ludicolo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/272.png"
+    },
+    {
+      "id": 273,
+      "name": "Seedot",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/273.png"
+    },
+    {
+      "id": 274,
+      "name": "Nuzleaf",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/274.png"
+    },
+    {
+      "id": 275,
+      "name": "Shiftry",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/275.png"
+    },
+    {
+      "id": 276,
+      "name": "Taillow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/276.png"
+    },
+    {
+      "id": 277,
+      "name": "Swellow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/277.png"
+    },
+    {
+      "id": 278,
+      "name": "Wingull",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/278.png"
+    },
+    {
+      "id": 279,
+      "name": "Pelipper",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/279.png"
+    },
+    {
+      "id": 280,
+      "name": "Ralts",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/280.png"
+    },
+    {
+      "id": 281,
+      "name": "Kirlia",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/281.png"
+    },
+    {
+      "id": 282,
+      "name": "Gardevoir",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/282.png"
+    },
+    {
+      "id": 283,
+      "name": "Surskit",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/283.png"
+    },
+    {
+      "id": 284,
+      "name": "Masquerain",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/284.png"
+    },
+    {
+      "id": 285,
+      "name": "Shroomish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/285.png"
+    },
+    {
+      "id": 286,
+      "name": "Breloom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/286.png"
+    },
+    {
+      "id": 287,
+      "name": "Slakoth",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/287.png"
+    },
+    {
+      "id": 288,
+      "name": "Vigoroth",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/288.png"
+    },
+    {
+      "id": 289,
+      "name": "Slaking",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/289.png"
+    },
+    {
+      "id": 290,
+      "name": "Nincada",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/290.png"
+    },
+    {
+      "id": 291,
+      "name": "Ninjask",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/291.png"
+    },
+    {
+      "id": 292,
+      "name": "Shedinja",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/292.png"
+    },
+    {
+      "id": 293,
+      "name": "Whismur",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/293.png"
+    },
+    {
+      "id": 294,
+      "name": "Loudred",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/294.png"
+    },
+    {
+      "id": 295,
+      "name": "Exploud",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/295.png"
+    },
+    {
+      "id": 296,
+      "name": "Makuhita",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/296.png"
+    },
+    {
+      "id": 297,
+      "name": "Hariyama",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/297.png"
+    },
+    {
+      "id": 298,
+      "name": "Azurill",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/298.png"
+    },
+    {
+      "id": 299,
+      "name": "Nosepass",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/299.png"
+    },
+    {
+      "id": 300,
+      "name": "Skitty",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/300.png"
+    },
+    {
+      "id": 301,
+      "name": "Delcatty",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/301.png"
+    },
+    {
+      "id": 302,
+      "name": "Sableye",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/302.png"
+    },
+    {
+      "id": 303,
+      "name": "Mawile",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/303.png"
+    },
+    {
+      "id": 304,
+      "name": "Aron",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/304.png"
+    },
+    {
+      "id": 305,
+      "name": "Lairon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/305.png"
+    },
+    {
+      "id": 306,
+      "name": "Aggron",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/306.png"
+    },
+    {
+      "id": 307,
+      "name": "Meditite",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/307.png"
+    },
+    {
+      "id": 308,
+      "name": "Medicham",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/308.png"
+    },
+    {
+      "id": 309,
+      "name": "Electrike",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/309.png"
+    },
+    {
+      "id": 310,
+      "name": "Manectric",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/310.png"
+    },
+    {
+      "id": 311,
+      "name": "Plusle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/311.png"
+    },
+    {
+      "id": 312,
+      "name": "Minun",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/312.png"
+    },
+    {
+      "id": 313,
+      "name": "Volbeat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/313.png"
+    },
+    {
+      "id": 314,
+      "name": "Illumise",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/314.png"
+    },
+    {
+      "id": 315,
+      "name": "Roselia",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/315.png"
+    },
+    {
+      "id": 316,
+      "name": "Gulpin",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/316.png"
+    },
+    {
+      "id": 317,
+      "name": "Swalot",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/317.png"
+    },
+    {
+      "id": 318,
+      "name": "Carvanha",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/318.png"
+    },
+    {
+      "id": 319,
+      "name": "Sharpedo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/319.png"
+    },
+    {
+      "id": 320,
+      "name": "Wailmer",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/320.png"
+    },
+    {
+      "id": 321,
+      "name": "Wailord",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/321.png"
+    },
+    {
+      "id": 322,
+      "name": "Numel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/322.png"
+    },
+    {
+      "id": 323,
+      "name": "Camerupt",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/323.png"
+    },
+    {
+      "id": 324,
+      "name": "Torkoal",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/324.png"
+    },
+    {
+      "id": 325,
+      "name": "Spoink",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/325.png"
+    },
+    {
+      "id": 326,
+      "name": "Grumpig",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/326.png"
+    },
+    {
+      "id": 327,
+      "name": "Spinda",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/327.png"
+    },
+    {
+      "id": 328,
+      "name": "Trapinch",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/328.png"
+    },
+    {
+      "id": 329,
+      "name": "Vibrava",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/329.png"
+    },
+    {
+      "id": 330,
+      "name": "Flygon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/330.png"
+    },
+    {
+      "id": 331,
+      "name": "Cacnea",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/331.png"
+    },
+    {
+      "id": 332,
+      "name": "Cacturne",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/332.png"
+    },
+    {
+      "id": 333,
+      "name": "Swablu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/333.png"
+    },
+    {
+      "id": 334,
+      "name": "Altaria",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/334.png"
+    },
+    {
+      "id": 335,
+      "name": "Zangoose",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/335.png"
+    },
+    {
+      "id": 336,
+      "name": "Seviper",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/336.png"
+    },
+    {
+      "id": 337,
+      "name": "Lunatone",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/337.png"
+    },
+    {
+      "id": 338,
+      "name": "Solrock",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/338.png"
+    },
+    {
+      "id": 339,
+      "name": "Barboach",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/339.png"
+    },
+    {
+      "id": 340,
+      "name": "Whiscash",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/340.png"
+    },
+    {
+      "id": 341,
+      "name": "Corphish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/341.png"
+    },
+    {
+      "id": 342,
+      "name": "Crawdaunt",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/342.png"
+    },
+    {
+      "id": 343,
+      "name": "Baltoy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/343.png"
+    },
+    {
+      "id": 344,
+      "name": "Claydol",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/344.png"
+    },
+    {
+      "id": 345,
+      "name": "Lileep",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/345.png"
+    },
+    {
+      "id": 346,
+      "name": "Cradily",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/346.png"
+    },
+    {
+      "id": 347,
+      "name": "Anorith",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/347.png"
+    },
+    {
+      "id": 348,
+      "name": "Armaldo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/348.png"
+    },
+    {
+      "id": 349,
+      "name": "Feebas",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/349.png"
+    },
+    {
+      "id": 350,
+      "name": "Milotic",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/350.png"
+    },
+    {
+      "id": 351,
+      "name": "Castform",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/351.png"
+    },
+    {
+      "id": 352,
+      "name": "Kecleon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/352.png"
+    },
+    {
+      "id": 353,
+      "name": "Shuppet",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/353.png"
+    },
+    {
+      "id": 354,
+      "name": "Banette",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/354.png"
+    },
+    {
+      "id": 355,
+      "name": "Duskull",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/355.png"
+    },
+    {
+      "id": 356,
+      "name": "Dusclops",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/356.png"
+    },
+    {
+      "id": 357,
+      "name": "Tropius",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/357.png"
+    },
+    {
+      "id": 358,
+      "name": "Chimecho",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/358.png"
+    },
+    {
+      "id": 359,
+      "name": "Absol",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/359.png"
+    },
+    {
+      "id": 360,
+      "name": "Wynaut",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/360.png"
+    },
+    {
+      "id": 361,
+      "name": "Snorunt",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/361.png"
+    },
+    {
+      "id": 362,
+      "name": "Glalie",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/362.png"
+    },
+    {
+      "id": 363,
+      "name": "Spheal",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/363.png"
+    },
+    {
+      "id": 364,
+      "name": "Sealeo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/364.png"
+    },
+    {
+      "id": 365,
+      "name": "Walrein",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/365.png"
+    },
+    {
+      "id": 366,
+      "name": "Clamperl",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/366.png"
+    },
+    {
+      "id": 367,
+      "name": "Huntail",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/367.png"
+    },
+    {
+      "id": 368,
+      "name": "Gorebyss",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/368.png"
+    },
+    {
+      "id": 369,
+      "name": "Relicanth",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/369.png"
+    },
+    {
+      "id": 370,
+      "name": "Luvdisc",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/370.png"
+    },
+    {
+      "id": 371,
+      "name": "Bagon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/371.png"
+    },
+    {
+      "id": 372,
+      "name": "Shelgon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/372.png"
+    },
+    {
+      "id": 373,
+      "name": "Salamence",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/373.png"
+    },
+    {
+      "id": 374,
+      "name": "Beldum",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/374.png"
+    },
+    {
+      "id": 375,
+      "name": "Metang",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/375.png"
+    },
+    {
+      "id": 376,
+      "name": "Metagross",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/376.png"
+    },
+    {
+      "id": 377,
+      "name": "Regirock",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/377.png"
+    },
+    {
+      "id": 378,
+      "name": "Regice",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/378.png"
+    },
+    {
+      "id": 379,
+      "name": "Registeel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/379.png"
+    },
+    {
+      "id": 380,
+      "name": "Latias",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/380.png"
+    },
+    {
+      "id": 381,
+      "name": "Latios",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/381.png"
+    },
+    {
+      "id": 382,
+      "name": "Kyogre",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/382.png"
+    },
+    {
+      "id": 383,
+      "name": "Groudon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/383.png"
+    },
+    {
+      "id": 384,
+      "name": "Rayquaza",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/384.png"
+    },
+    {
+      "id": 385,
+      "name": "Jirachi",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/385.png"
+    },
+    {
+      "id": 386,
+      "name": "Deoxys",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/386.png"
+    },
+    {
+      "id": 387,
+      "name": "Turtwig",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/387.png"
+    },
+    {
+      "id": 388,
+      "name": "Grotle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/388.png"
+    },
+    {
+      "id": 389,
+      "name": "Torterra",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/389.png"
+    },
+    {
+      "id": 390,
+      "name": "Chimchar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/390.png"
+    },
+    {
+      "id": 391,
+      "name": "Monferno",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/391.png"
+    },
+    {
+      "id": 392,
+      "name": "Infernape",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/392.png"
+    },
+    {
+      "id": 393,
+      "name": "Piplup",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/393.png"
+    },
+    {
+      "id": 394,
+      "name": "Prinplup",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/394.png"
+    },
+    {
+      "id": 395,
+      "name": "Empoleon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/395.png"
+    },
+    {
+      "id": 396,
+      "name": "Starly",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/396.png"
+    },
+    {
+      "id": 397,
+      "name": "Staravia",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/397.png"
+    },
+    {
+      "id": 398,
+      "name": "Staraptor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/398.png"
+    },
+    {
+      "id": 399,
+      "name": "Bidoof",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/399.png"
+    },
+    {
+      "id": 400,
+      "name": "Bibarel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/400.png"
+    },
+    {
+      "id": 401,
+      "name": "Kricketot",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/401.png"
+    },
+    {
+      "id": 402,
+      "name": "Kricketune",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/402.png"
+    },
+    {
+      "id": 403,
+      "name": "Shinx",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/403.png"
+    },
+    {
+      "id": 404,
+      "name": "Luxio",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/404.png"
+    },
+    {
+      "id": 405,
+      "name": "Luxray",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/405.png"
+    },
+    {
+      "id": 406,
+      "name": "Budew",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/406.png"
+    },
+    {
+      "id": 407,
+      "name": "Roserade",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/407.png"
+    },
+    {
+      "id": 408,
+      "name": "Cranidos",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/408.png"
+    },
+    {
+      "id": 409,
+      "name": "Rampardos",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/409.png"
+    },
+    {
+      "id": 410,
+      "name": "Shieldon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/410.png"
+    },
+    {
+      "id": 411,
+      "name": "Bastiodon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/411.png"
+    },
+    {
+      "id": 412,
+      "name": "Burmy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/412.png"
+    },
+    {
+      "id": 413,
+      "name": "Wormadam",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/413.png"
+    },
+    {
+      "id": 414,
+      "name": "Mothim",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/414.png"
+    },
+    {
+      "id": 415,
+      "name": "Combee",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/415.png"
+    },
+    {
+      "id": 416,
+      "name": "Vespiquen",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/416.png"
+    },
+    {
+      "id": 417,
+      "name": "Pachirisu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/417.png"
+    },
+    {
+      "id": 418,
+      "name": "Buizel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/418.png"
+    },
+    {
+      "id": 419,
+      "name": "Floatzel",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/419.png"
+    },
+    {
+      "id": 420,
+      "name": "Cherubi",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/420.png"
+    },
+    {
+      "id": 421,
+      "name": "Cherrim",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/421.png"
+    },
+    {
+      "id": 422,
+      "name": "Shellos",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/422.png"
+    },
+    {
+      "id": 423,
+      "name": "Gastrodon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/423.png"
+    },
+    {
+      "id": 424,
+      "name": "Ambipom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/424.png"
+    },
+    {
+      "id": 425,
+      "name": "Drifloon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/425.png"
+    },
+    {
+      "id": 426,
+      "name": "Drifblim",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/426.png"
+    },
+    {
+      "id": 427,
+      "name": "Buneary",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/427.png"
+    },
+    {
+      "id": 428,
+      "name": "Lopunny",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/428.png"
+    },
+    {
+      "id": 429,
+      "name": "Mismagius",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/429.png"
+    },
+    {
+      "id": 430,
+      "name": "Honchkrow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/430.png"
+    },
+    {
+      "id": 431,
+      "name": "Glameow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/431.png"
+    },
+    {
+      "id": 432,
+      "name": "Purugly",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/432.png"
+    },
+    {
+      "id": 433,
+      "name": "Chingling",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/433.png"
+    },
+    {
+      "id": 434,
+      "name": "Stunky",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/434.png"
+    },
+    {
+      "id": 435,
+      "name": "Skuntank",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/435.png"
+    },
+    {
+      "id": 436,
+      "name": "Bronzor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/436.png"
+    },
+    {
+      "id": 437,
+      "name": "Bronzong",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/437.png"
+    },
+    {
+      "id": 438,
+      "name": "Bonsly",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/438.png"
+    },
+    {
+      "id": 439,
+      "name": "Mime Jr.",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/439.png"
+    },
+    {
+      "id": 440,
+      "name": "Happiny",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/440.png"
+    },
+    {
+      "id": 441,
+      "name": "Chatot",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/441.png"
+    },
+    {
+      "id": 442,
+      "name": "Spiritomb",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/442.png"
+    },
+    {
+      "id": 443,
+      "name": "Gible",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/443.png"
+    },
+    {
+      "id": 444,
+      "name": "Gabite",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/444.png"
+    },
+    {
+      "id": 445,
+      "name": "Garchomp",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/445.png"
+    },
+    {
+      "id": 446,
+      "name": "Munchlax",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/446.png"
+    },
+    {
+      "id": 447,
+      "name": "Riolu",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/447.png"
+    },
+    {
+      "id": 448,
+      "name": "Lucario",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/448.png"
+    },
+    {
+      "id": 449,
+      "name": "Hippopotas",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/449.png"
+    },
+    {
+      "id": 450,
+      "name": "Hippowdon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/450.png"
+    },
+    {
+      "id": 451,
+      "name": "Skorupi",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/451.png"
+    },
+    {
+      "id": 452,
+      "name": "Drapion",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/452.png"
+    },
+    {
+      "id": 453,
+      "name": "Croagunk",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/453.png"
+    },
+    {
+      "id": 454,
+      "name": "Toxicroak",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/454.png"
+    },
+    {
+      "id": 455,
+      "name": "Carnivine",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/455.png"
+    },
+    {
+      "id": 456,
+      "name": "Finneon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/456.png"
+    },
+    {
+      "id": 457,
+      "name": "Lumineon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/457.png"
+    },
+    {
+      "id": 458,
+      "name": "Mantyke",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/458.png"
+    },
+    {
+      "id": 459,
+      "name": "Snover",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/459.png"
+    },
+    {
+      "id": 460,
+      "name": "Abomasnow",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/460.png"
+    },
+    {
+      "id": 461,
+      "name": "Weavile",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/461.png"
+    },
+    {
+      "id": 462,
+      "name": "Magnezone",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/462.png"
+    },
+    {
+      "id": 463,
+      "name": "Lickilicky",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/463.png"
+    },
+    {
+      "id": 464,
+      "name": "Rhyperior",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/464.png"
+    },
+    {
+      "id": 465,
+      "name": "Tangrowth",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/465.png"
+    },
+    {
+      "id": 466,
+      "name": "Electivire",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/466.png"
+    },
+    {
+      "id": 467,
+      "name": "Magmortar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/467.png"
+    },
+    {
+      "id": 468,
+      "name": "Togekiss",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/468.png"
+    },
+    {
+      "id": 469,
+      "name": "Yanmega",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/469.png"
+    },
+    {
+      "id": 470,
+      "name": "Leafeon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/470.png"
+    },
+    {
+      "id": 471,
+      "name": "Glaceon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/471.png"
+    },
+    {
+      "id": 472,
+      "name": "Gliscor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/472.png"
+    },
+    {
+      "id": 473,
+      "name": "Mamoswine",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/473.png"
+    },
+    {
+      "id": 474,
+      "name": "Porygon-Z",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/474.png"
+    },
+    {
+      "id": 475,
+      "name": "Gallade",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/475.png"
+    },
+    {
+      "id": 476,
+      "name": "Probopass",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/476.png"
+    },
+    {
+      "id": 477,
+      "name": "Dusknoir",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/477.png"
+    },
+    {
+      "id": 478,
+      "name": "Froslass",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/478.png"
+    },
+    {
+      "id": 479,
+      "name": "Rotom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/479.png"
+    },
+    {
+      "id": 480,
+      "name": "Uxie",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/480.png"
+    },
+    {
+      "id": 481,
+      "name": "Mesprit",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/481.png"
+    },
+    {
+      "id": 482,
+      "name": "Azelf",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/482.png"
+    },
+    {
+      "id": 483,
+      "name": "Dialga",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/483.png"
+    },
+    {
+      "id": 484,
+      "name": "Palkia",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/484.png"
+    },
+    {
+      "id": 485,
+      "name": "Heatran",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/485.png"
+    },
+    {
+      "id": 486,
+      "name": "Regigigas",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/486.png"
+    },
+    {
+      "id": 487,
+      "name": "Giratina",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/487.png"
+    },
+    {
+      "id": 488,
+      "name": "Cresselia",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/488.png"
+    },
+    {
+      "id": 489,
+      "name": "Phione",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/489.png"
+    },
+    {
+      "id": 490,
+      "name": "Manaphy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/490.png"
+    },
+    {
+      "id": 491,
+      "name": "Darkrai",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/491.png"
+    },
+    {
+      "id": 492,
+      "name": "Shaymin",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/492.png"
+    },
+    {
+      "id": 493,
+      "name": "Arceus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/493.png"
+    },
+    {
+      "id": 494,
+      "name": "Victini",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/494.png"
+    },
+    {
+      "id": 495,
+      "name": "Snivy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/495.png"
+    },
+    {
+      "id": 496,
+      "name": "Servine",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/496.png"
+    },
+    {
+      "id": 497,
+      "name": "Serperior",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/497.png"
+    },
+    {
+      "id": 498,
+      "name": "Tepig",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/498.png"
+    },
+    {
+      "id": 499,
+      "name": "Pignite",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/499.png"
+    },
+    {
+      "id": 500,
+      "name": "Emboar",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/500.png"
+    },
+    {
+      "id": 501,
+      "name": "Oshawott",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/501.png"
+    },
+    {
+      "id": 502,
+      "name": "Dewott",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/502.png"
+    },
+    {
+      "id": 503,
+      "name": "Samurott",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/503.png"
+    },
+    {
+      "id": 504,
+      "name": "Patrat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/504.png"
+    },
+    {
+      "id": 505,
+      "name": "Watchog",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/505.png"
+    },
+    {
+      "id": 506,
+      "name": "Lillipup",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/506.png"
+    },
+    {
+      "id": 507,
+      "name": "Herdier",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/507.png"
+    },
+    {
+      "id": 508,
+      "name": "Stoutland",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/508.png"
+    },
+    {
+      "id": 509,
+      "name": "Purrloin",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/509.png"
+    },
+    {
+      "id": 510,
+      "name": "Liepard",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/510.png"
+    },
+    {
+      "id": 511,
+      "name": "Pansage",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/511.png"
+    },
+    {
+      "id": 512,
+      "name": "Simisage",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/512.png"
+    },
+    {
+      "id": 513,
+      "name": "Pansear",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/513.png"
+    },
+    {
+      "id": 514,
+      "name": "Simisear",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/514.png"
+    },
+    {
+      "id": 515,
+      "name": "Panpour",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/515.png"
+    },
+    {
+      "id": 516,
+      "name": "Simipour",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/516.png"
+    },
+    {
+      "id": 517,
+      "name": "Munna",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/517.png"
+    },
+    {
+      "id": 518,
+      "name": "Musharna",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/518.png"
+    },
+    {
+      "id": 519,
+      "name": "Pidove",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/519.png"
+    },
+    {
+      "id": 520,
+      "name": "Tranquill",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/520.png"
+    },
+    {
+      "id": 521,
+      "name": "Unfezant",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/521.png"
+    },
+    {
+      "id": 522,
+      "name": "Blitzle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/522.png"
+    },
+    {
+      "id": 523,
+      "name": "Zebstrika",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/523.png"
+    },
+    {
+      "id": 524,
+      "name": "Roggenrola",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/524.png"
+    },
+    {
+      "id": 525,
+      "name": "Boldore",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/525.png"
+    },
+    {
+      "id": 526,
+      "name": "Gigalith",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/526.png"
+    },
+    {
+      "id": 527,
+      "name": "Woobat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/527.png"
+    },
+    {
+      "id": 528,
+      "name": "Swoobat",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/528.png"
+    },
+    {
+      "id": 529,
+      "name": "Drilbur",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/529.png"
+    },
+    {
+      "id": 530,
+      "name": "Excadrill",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/530.png"
+    },
+    {
+      "id": 531,
+      "name": "Audino",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/531.png"
+    },
+    {
+      "id": 532,
+      "name": "Timburr",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/532.png"
+    },
+    {
+      "id": 533,
+      "name": "Gurdurr",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/533.png"
+    },
+    {
+      "id": 534,
+      "name": "Conkeldurr",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/534.png"
+    },
+    {
+      "id": 535,
+      "name": "Tympole",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/535.png"
+    },
+    {
+      "id": 536,
+      "name": "Palpitoad",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/536.png"
+    },
+    {
+      "id": 537,
+      "name": "Seismitoad",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/537.png"
+    },
+    {
+      "id": 538,
+      "name": "Throh",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/538.png"
+    },
+    {
+      "id": 539,
+      "name": "Sawk",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/539.png"
+    },
+    {
+      "id": 540,
+      "name": "Sewaddle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/540.png"
+    },
+    {
+      "id": 541,
+      "name": "Swadloon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/541.png"
+    },
+    {
+      "id": 542,
+      "name": "Leavanny",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/542.png"
+    },
+    {
+      "id": 543,
+      "name": "Venipede",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/543.png"
+    },
+    {
+      "id": 544,
+      "name": "Whirlipede",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/544.png"
+    },
+    {
+      "id": 545,
+      "name": "Scolipede",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/545.png"
+    },
+    {
+      "id": 546,
+      "name": "Cottonee",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/546.png"
+    },
+    {
+      "id": 547,
+      "name": "Whimsicott",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/547.png"
+    },
+    {
+      "id": 548,
+      "name": "Petilil",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/548.png"
+    },
+    {
+      "id": 549,
+      "name": "Lilligant",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/549.png"
+    },
+    {
+      "id": 550,
+      "name": "Basculin",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/550.png"
+    },
+    {
+      "id": 551,
+      "name": "Sandile",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/551.png"
+    },
+    {
+      "id": 552,
+      "name": "Krokorok",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/552.png"
+    },
+    {
+      "id": 553,
+      "name": "Krookodile",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/553.png"
+    },
+    {
+      "id": 554,
+      "name": "Darumaka",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/554.png"
+    },
+    {
+      "id": 555,
+      "name": "Darmanitan",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/555.png"
+    },
+    {
+      "id": 556,
+      "name": "Maractus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/556.png"
+    },
+    {
+      "id": 557,
+      "name": "Dwebble",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/557.png"
+    },
+    {
+      "id": 558,
+      "name": "Crustle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/558.png"
+    },
+    {
+      "id": 559,
+      "name": "Scraggy",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/559.png"
+    },
+    {
+      "id": 560,
+      "name": "Scrafty",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/560.png"
+    },
+    {
+      "id": 561,
+      "name": "Sigilyph",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/561.png"
+    },
+    {
+      "id": 562,
+      "name": "Yamask",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/562.png"
+    },
+    {
+      "id": 563,
+      "name": "Cofagrigus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/563.png"
+    },
+    {
+      "id": 564,
+      "name": "Tirtouga",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/564.png"
+    },
+    {
+      "id": 565,
+      "name": "Carracosta",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/565.png"
+    },
+    {
+      "id": 566,
+      "name": "Archen",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/566.png"
+    },
+    {
+      "id": 567,
+      "name": "Archeops",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/567.png"
+    },
+    {
+      "id": 568,
+      "name": "Trubbish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/568.png"
+    },
+    {
+      "id": 569,
+      "name": "Garbodor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/569.png"
+    },
+    {
+      "id": 570,
+      "name": "Zorua",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/570.png"
+    },
+    {
+      "id": 571,
+      "name": "Zoroark",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/571.png"
+    },
+    {
+      "id": 572,
+      "name": "Minccino",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/572.png"
+    },
+    {
+      "id": 573,
+      "name": "Cinccino",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/573.png"
+    },
+    {
+      "id": 574,
+      "name": "Gothita",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/574.png"
+    },
+    {
+      "id": 575,
+      "name": "Gothorita",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/575.png"
+    },
+    {
+      "id": 576,
+      "name": "Gothitelle",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/576.png"
+    },
+    {
+      "id": 577,
+      "name": "Solosis",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/577.png"
+    },
+    {
+      "id": 578,
+      "name": "Duosion",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/578.png"
+    },
+    {
+      "id": 579,
+      "name": "Reuniclus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/579.png"
+    },
+    {
+      "id": 580,
+      "name": "Ducklett",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/580.png"
+    },
+    {
+      "id": 581,
+      "name": "Swanna",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/581.png"
+    },
+    {
+      "id": 582,
+      "name": "Vanillite",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/582.png"
+    },
+    {
+      "id": 583,
+      "name": "Vanillish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/583.png"
+    },
+    {
+      "id": 584,
+      "name": "Vanilluxe",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/584.png"
+    },
+    {
+      "id": 585,
+      "name": "Deerling",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/585.png"
+    },
+    {
+      "id": 586,
+      "name": "Sawsbuck",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/586.png"
+    },
+    {
+      "id": 587,
+      "name": "Emolga",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/587.png"
+    },
+    {
+      "id": 588,
+      "name": "Karrablast",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/588.png"
+    },
+    {
+      "id": 589,
+      "name": "Escavalier",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/589.png"
+    },
+    {
+      "id": 590,
+      "name": "Foongus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/590.png"
+    },
+    {
+      "id": 591,
+      "name": "Amoonguss",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/591.png"
+    },
+    {
+      "id": 592,
+      "name": "Frillish",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/592.png"
+    },
+    {
+      "id": 593,
+      "name": "Jellicent",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/593.png"
+    },
+    {
+      "id": 594,
+      "name": "Alomomola",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/594.png"
+    },
+    {
+      "id": 595,
+      "name": "Joltik",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/595.png"
+    },
+    {
+      "id": 596,
+      "name": "Galvantula",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/596.png"
+    },
+    {
+      "id": 597,
+      "name": "Ferroseed",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/597.png"
+    },
+    {
+      "id": 598,
+      "name": "Ferrothorn",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/598.png"
+    },
+    {
+      "id": 599,
+      "name": "Klink",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/599.png"
+    },
+    {
+      "id": 600,
+      "name": "Klang",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/600.png"
+    },
+    {
+      "id": 601,
+      "name": "Klinklang",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/601.png"
+    },
+    {
+      "id": 602,
+      "name": "Tynamo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/602.png"
+    },
+    {
+      "id": 603,
+      "name": "Eelektrik",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/603.png"
+    },
+    {
+      "id": 604,
+      "name": "Eelektross",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/604.png"
+    },
+    {
+      "id": 605,
+      "name": "Elgyem",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/605.png"
+    },
+    {
+      "id": 606,
+      "name": "Beheeyem",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/606.png"
+    },
+    {
+      "id": 607,
+      "name": "Litwick",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/607.png"
+    },
+    {
+      "id": 608,
+      "name": "Lampent",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/608.png"
+    },
+    {
+      "id": 609,
+      "name": "Chandelure",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/609.png"
+    },
+    {
+      "id": 610,
+      "name": "Axew",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/610.png"
+    },
+    {
+      "id": 611,
+      "name": "Fraxure",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/611.png"
+    },
+    {
+      "id": 612,
+      "name": "Haxorus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/612.png"
+    },
+    {
+      "id": 613,
+      "name": "Cubchoo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/613.png"
+    },
+    {
+      "id": 614,
+      "name": "Beartic",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/614.png"
+    },
+    {
+      "id": 615,
+      "name": "Cryogonal",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/615.png"
+    },
+    {
+      "id": 616,
+      "name": "Shelmet",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/616.png"
+    },
+    {
+      "id": 617,
+      "name": "Accelgor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/617.png"
+    },
+    {
+      "id": 618,
+      "name": "Stunfisk",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/618.png"
+    },
+    {
+      "id": 619,
+      "name": "Mienfoo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/619.png"
+    },
+    {
+      "id": 620,
+      "name": "Mienshao",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/620.png"
+    },
+    {
+      "id": 621,
+      "name": "Druddigon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/621.png"
+    },
+    {
+      "id": 622,
+      "name": "Golett",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/622.png"
+    },
+    {
+      "id": 623,
+      "name": "Golurk",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/623.png"
+    },
+    {
+      "id": 624,
+      "name": "Pawniard",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/624.png"
+    },
+    {
+      "id": 625,
+      "name": "Bisharp",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/625.png"
+    },
+    {
+      "id": 626,
+      "name": "Bouffalant",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/626.png"
+    },
+    {
+      "id": 627,
+      "name": "Rufflet",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/627.png"
+    },
+    {
+      "id": 628,
+      "name": "Braviary",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/628.png"
+    },
+    {
+      "id": 629,
+      "name": "Vullaby",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/629.png"
+    },
+    {
+      "id": 630,
+      "name": "Mandibuzz",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/630.png"
+    },
+    {
+      "id": 631,
+      "name": "Heatmor",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/631.png"
+    },
+    {
+      "id": 632,
+      "name": "Durant",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/632.png"
+    },
+    {
+      "id": 633,
+      "name": "Deino",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/633.png"
+    },
+    {
+      "id": 634,
+      "name": "Zweilous",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/634.png"
+    },
+    {
+      "id": 635,
+      "name": "Hydreigon",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/635.png"
+    },
+    {
+      "id": 636,
+      "name": "Larvesta",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/636.png"
+    },
+    {
+      "id": 637,
+      "name": "Volcarona",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/637.png"
+    },
+    {
+      "id": 638,
+      "name": "Cobalion",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/638.png"
+    },
+    {
+      "id": 639,
+      "name": "Terrakion",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/639.png"
+    },
+    {
+      "id": 640,
+      "name": "Virizion",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/640.png"
+    },
+    {
+      "id": 641,
+      "name": "Tornadus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/641.png"
+    },
+    {
+      "id": 642,
+      "name": "Thundurus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/642.png"
+    },
+    {
+      "id": 643,
+      "name": "Reshiram",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/643.png"
+    },
+    {
+      "id": 644,
+      "name": "Zekrom",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/644.png"
+    },
+    {
+      "id": 645,
+      "name": "Landorus",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/645.png"
+    },
+    {
+      "id": 646,
+      "name": "Kyurem",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/646.png"
+    },
+    {
+      "id": 647,
+      "name": "Keldeo",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/647.png"
+    },
+    {
+      "id": 648,
+      "name": "Meloetta",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/648.png"
+    },
+    {
+      "id": 649,
+      "name": "Genesect",
+      "path": "sprites/pokemon/versions/generation-v/icons/animated/649.png"
+    }
+  ],
+  "balls": [
+    {
+      "id": "poke-ball",
+      "name": "Poke Ball",
+      "path": "sprites/items/poke-ball.png"
+    },
+    {
+      "id": "great-ball",
+      "name": "Great Ball",
+      "path": "sprites/items/great-ball.png"
+    },
+    {
+      "id": "ultra-ball",
+      "name": "Ultra Ball",
+      "path": "sprites/items/ultra-ball.png"
+    },
+    {
+      "id": "master-ball",
+      "name": "Master Ball",
+      "path": "sprites/items/master-ball.png"
+    },
+    {
+      "id": "premier-ball",
+      "name": "Premier Ball",
+      "path": "sprites/items/premier-ball.png"
+    },
+    {
+      "id": "luxury-ball",
+      "name": "Luxury Ball",
+      "path": "sprites/items/luxury-ball.png"
+    },
+    {
+      "id": "dusk-ball",
+      "name": "Dusk Ball",
+      "path": "sprites/items/dusk-ball.png"
+    },
+    {
+      "id": "net-ball",
+      "name": "Net Ball",
+      "path": "sprites/items/net-ball.png"
+    },
+    {
+      "id": "quick-ball",
+      "name": "Quick Ball",
+      "path": "sprites/items/quick-ball.png"
+    },
+    {
+      "id": "timer-ball",
+      "name": "Timer Ball",
+      "path": "sprites/items/timer-ball.png"
+    },
+    {
+      "id": "heal-ball",
+      "name": "Heal Ball",
+      "path": "sprites/items/heal-ball.png"
+    },
+    {
+      "id": "dive-ball",
+      "name": "Dive Ball",
+      "path": "sprites/items/dive-ball.png"
+    },
+    {
+      "id": "nest-ball",
+      "name": "Nest Ball",
+      "path": "sprites/items/nest-ball.png"
+    },
+    {
+      "id": "repeat-ball",
+      "name": "Repeat Ball",
+      "path": "sprites/items/repeat-ball.png"
+    },
+    {
+      "id": "safari-ball",
+      "name": "Safari Ball",
+      "path": "sprites/items/safari-ball.png"
+    },
+    {
+      "id": "sport-ball",
+      "name": "Sport Ball",
+      "path": "sprites/items/sport-ball.png"
+    },
+    {
+      "id": "level-ball",
+      "name": "Level Ball",
+      "path": "sprites/items/level-ball.png"
+    },
+    {
+      "id": "lure-ball",
+      "name": "Lure Ball",
+      "path": "sprites/items/lure-ball.png"
+    },
+    {
+      "id": "moon-ball",
+      "name": "Moon Ball",
+      "path": "sprites/items/moon-ball.png"
+    },
+    {
+      "id": "friend-ball",
+      "name": "Friend Ball",
+      "path": "sprites/items/friend-ball.png"
+    },
+    {
+      "id": "love-ball",
+      "name": "Love Ball",
+      "path": "sprites/items/love-ball.png"
+    },
+    {
+      "id": "heavy-ball",
+      "name": "Heavy Ball",
+      "path": "sprites/items/heavy-ball.png"
+    },
+    {
+      "id": "fast-ball",
+      "name": "Fast Ball",
+      "path": "sprites/items/fast-ball.png"
+    },
+    {
+      "id": "dream-ball",
+      "name": "Dream Ball",
+      "path": "sprites/items/dream-ball.png"
+    },
+    {
+      "id": "beast-ball",
+      "name": "Beast Ball",
+      "path": "sprites/items/beast-ball.png"
+    },
+    {
+      "id": "cherish-ball",
+      "name": "Cherish Ball",
+      "path": "sprites/items/cherish-ball.png"
+    },
+    {
+      "id": "park-ball",
+      "name": "Park Ball",
+      "path": "sprites/items/park-ball.png"
+    }
+  ]
+}
