@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lilfrogdev.pokespaces",
+  "name": "Pokéspaces",
+  "version": "0.1.0",
+  "author": "lilfrogdev",
+  "description": "A six-Pokémon party for your workspaces, with animated Gen V icons and Poké Balls.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Workspaces.qml"},
+  "barWidget": {
+    "displayName": "Pokéspaces",
+    "description": "Left-click to switch workspace; right-click to edit your party.",
+    "category": "Compositor",
+    "defaultSection": "left",
+    "allowMultiple": false
+  }
+}
