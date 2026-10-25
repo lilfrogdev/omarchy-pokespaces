@@ -161,11 +161,11 @@ Restore preserves the rest of your bar, saved team, cache, and CLI. It does not 
 - **Existing `pokespaces` executable:** the installer refuses to overwrite a different command. Rename or relocate that command before retrying.
 - **Saved team cannot be read:** use `team apply` with a valid exported team file. It validates the replacement before saving.
 
-## Development and release review
+## Development
 
 QML implements the bar and picker. `scripts/pokespaces.py` handles validation, persistence, downloads, caching, and APNG frame compositing using Python's standard library. Qt's PNG loader does not animate these party icons, so cached frames play with their original timing in QML.
 
-Run `omarchy plugin validate .` from the checkout, and rerun the installer after source changes. See the [0.1.0 readiness review](docs/RELEASE-REVIEW.md) for verified behavior and remaining limits.
+Run `omarchy plugin validate .` from the checkout, and rerun the installer after source changes.
 
 ## Credits and licensing
 
