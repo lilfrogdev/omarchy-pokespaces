@@ -23,24 +23,19 @@ def copy_changed(source, destination):
     return str(destination)
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Install Pokéspaces locally or restore the stock workspace widget.")
-    parser.add_argument("--restore", action="store_true")
-    args = parser.parse_args()
-    source_config = SHELL_CONFIG if SHELL_CONFIG.exists() else Path(os.environ.get("OMARCHY_PATH", "/usr/share/omarchy")) / "config/omarchy/shell.json"
-    config = json.loads(source_config.read_text())
+def replace_workspace(config, restoring=False, allow_missing=False):
     layout = config["bar"]["layout"]
-    replacing = PLUGIN_ID if args.restore else "omarchy.workspaces"
-    replacement = "omarchy.workspaces" if args.restore else PLUGIN_ID
+    replacing = PLUGIN_ID if restoring else "omarchy.workspaces"
+    replacement = "omarchy.workspaces" if restoring else PLUGIN_ID
     target = None
     for wanted in (replacing, replacement):
-        for section in ("left", "center", "right"):
+        for section in layout:
             for index, item in enumerate(layout.get(section, [])):
                 if item.get("id") == wanted and target is None:
                     target = (section, index)
-    if target is None:
+    if target is None and not allow_missing:
         raise SystemExit("No stock workspace widget found to replace. Add Pokéspaces with omarchy plugin enable " + PLUGIN_ID)
-    for section in ("left", "center", "right"):
+    for section in layout:
         items = []
         for index, item in enumerate(layout.get(section, [])):
             if item.get("id") not in (replacing, replacement):
@@ -48,18 +43,9 @@ def main():
             elif (section, index) == target:
                 items.append(item if item.get("id") == replacement else {"id": replacement})
         layout[section] = items
-    if not args.restore:
-        subprocess.run(["omarchy", "plugin", "validate", str(ROOT)], check=True)
-        launcher = Path.home() / ".local/bin/pokespaces"
-        target = DESTINATION / "scripts/pokespaces.py"
-        if (launcher.exists() or launcher.is_symlink()) and not (launcher.is_symlink() and launcher.resolve() == target.resolve()):
-            raise SystemExit("Cannot install CLI: " + str(launcher) + " already exists.")
-        if ROOT != DESTINATION.resolve():
-            shutil.copytree(ROOT, DESTINATION, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".git", "docs", "__pycache__", "*.pyc"), copy_function=copy_changed)
-        launcher.parent.mkdir(parents=True, exist_ok=True)
-        if not launcher.is_symlink():
-            launcher.symlink_to(target)
-        subprocess.run(["omarchy-shell", "shell", "rescanPlugins"], check=True)
+
+
+def write_config(config):
     SHELL_CONFIG.parent.mkdir(parents=True, exist_ok=True)
     if SHELL_CONFIG.exists():
         backup = SHELL_CONFIG.with_name("shell.json.before-pokespaces-" + datetime.now().strftime("%Y%m%d-%H%M%S-%f"))
@@ -74,6 +60,60 @@ def main():
     finally:
         Path(temporary).unlink(missing_ok=True)
     subprocess.run(["omarchy-shell", "shell", "reloadConfig"], check=True)
+
+
+def uninstall():
+    if DESTINATION.exists() and not DESTINATION.is_symlink():
+        manifest = DESTINATION / "manifest.json"
+        if not manifest.is_file() or json.loads(manifest.read_text()).get("id") != PLUGIN_ID:
+            raise SystemExit("Refusing to remove a directory without the Pokéspaces manifest: " + str(DESTINATION))
+    if SHELL_CONFIG.exists():
+        original = SHELL_CONFIG.read_text()
+        config = json.loads(original)
+        replace_workspace(config, restoring=True, allow_missing=True)
+        for key in ("plugins", "disabledPlugins"):
+            if key in config:
+                config[key] = [entry for entry in config[key] if (entry.get("id") if isinstance(entry, dict) else entry) != PLUGIN_ID]
+        if config != json.loads(original):
+            write_config(config)
+    launcher = Path.home() / ".local/bin/pokespaces"
+    target = DESTINATION / "scripts/pokespaces.py"
+    if launcher.is_symlink() and launcher.resolve() == target.resolve():
+        launcher.unlink()
+    if DESTINATION.is_symlink():
+        DESTINATION.unlink()
+    elif DESTINATION.exists():
+        shutil.rmtree(DESTINATION)
+    subprocess.run(["omarchy-shell", "shell", "rescanPlugins"], check=True)
+    print("Removed Pokéspaces. Your saved team, cache, and shell backups were preserved.")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Install, restore, or remove Pokéspaces.")
+    actions = parser.add_mutually_exclusive_group()
+    actions.add_argument("--restore", action="store_true", help="Restore stock workspace indicators, keeping the plugin and CLI")
+    actions.add_argument("--uninstall", action="store_true", help="Restore stock indicators and remove the installed plugin and CLI, keeping team and cache")
+    args = parser.parse_args()
+    if args.uninstall:
+        uninstall()
+        return
+    source_config = SHELL_CONFIG if SHELL_CONFIG.exists() else Path(os.environ.get("OMARCHY_PATH", "/usr/share/omarchy")) / "config/omarchy/shell.json"
+    config = json.loads(source_config.read_text())
+    replace_workspace(config, restoring=args.restore)
+    if not args.restore:
+        subprocess.run(["omarchy", "plugin", "validate", str(ROOT)], check=True)
+        launcher = Path.home() / ".local/bin/pokespaces"
+        target = DESTINATION / "scripts/pokespaces.py"
+        if (launcher.exists() or launcher.is_symlink()) and not (launcher.is_symlink() and launcher.resolve() == target.resolve()):
+            raise SystemExit("Cannot install CLI: " + str(launcher) + " already exists.")
+        if ROOT != DESTINATION.resolve():
+            shutil.copytree(ROOT, DESTINATION, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".git", "docs", "__pycache__", "*.pyc"), copy_function=copy_changed)
+        launcher.parent.mkdir(parents=True, exist_ok=True)
+        if not launcher.is_symlink():
+            launcher.symlink_to(target)
+        subprocess.run(["omarchy-shell", "shell", "rescanPlugins"], check=True)
+
+    write_config(config)
     print("Restored workspace numbers." if args.restore else "Installed Pokéspaces. Right-click a slot to edit your party.")
 
 
