@@ -10,6 +10,8 @@ This recommendation is scoped to a small, early release with explicit compatibil
 
 ## Issues found and corrected
 
+- PR review identified extra escaping in the workspace dispatcher expression. It passed literal backslashes through shell quoting, causing Hyprland to reject click/accessibility activation. The shared handler now quotes the Lua workspace string once and leaves shell escaping to `Util.shellQuote`. The original expression was reproduced as a parser error; the corrected expression was accepted by the running compositor.
+
 - `team apply` previously treated a missing or null `team` as a request to retain the current team and could report success for `{}`. It now validates the imported team before persistence. Missing, null, malformed, and incomplete teams fail without writing a team file.
 - CLI name normalization previously removed both Nidoran gender symbols, making the two names indistinguishable. Female and male names now resolve separately, including spelled-out aliases.
 - Installer CLI conflicts are now detected before copying plugin files. Existing unrelated commands are preserved.

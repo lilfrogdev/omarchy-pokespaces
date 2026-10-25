@@ -34,7 +34,7 @@ BarWidget {
 
     function focusWorkspace(id) {
         if (root.bar && root.ids.indexOf(id) >= 0)
-            root.bar.run("hyprctl dispatch " + Util.shellQuote("hl.dsp.focus({ workspace = \"" + id + "\" })"));
+            root.bar.run("hyprctl dispatch " + Util.shellQuote('hl.dsp.focus({ workspace = "' + id + '" })'));
     }
 
     function open() { picker.open(); }
