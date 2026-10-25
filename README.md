@@ -19,12 +19,11 @@ Verified on Omarchy **4.0.6-1**, its bundled Quickshell **0.3.2**, and a horizon
 
 ## Install
 
-Clone the repository and run the installer as your normal user:
+From a directory of your choice, clone the repository and run the installer as your normal user:
 
 ```bash
-mkdir -p ~/Repositories
-git clone https://github.com/lilfrogdev/omarchy-pokespaces.git ~/Repositories/omarchy-pokespaces
-cd ~/Repositories/omarchy-pokespaces
+git clone https://github.com/lilfrogdev/omarchy-pokespaces.git
+cd omarchy-pokespaces
 python3 scripts/install.py
 ```
 
@@ -135,10 +134,9 @@ The repository contains metadata and cropped UI documentation captures, not a bu
 
 ## Update or restore
 
-For a checkout installation:
+For a checkout installation, open a terminal in the directory where you cloned Pokéspaces and run:
 
 ```bash
-cd ~/Repositories/omarchy-pokespaces
 git pull --ff-only
 python3 scripts/install.py
 ```
