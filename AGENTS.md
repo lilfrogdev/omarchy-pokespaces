@@ -104,7 +104,7 @@ Pokémon asset path:
 - `Model.js`: workspace state and search helpers.
 - `scripts/pokespaces.py`: standard-library downloads, cache, persistence, and
   APNG extraction/compositing.
-- `scripts/install.py`: local installation and stock-widget restoration.
+- `scripts/install.py`: local installation, stock-widget restoration, and removal.
 - `data/catalog.json`: available Pokémon and capture balls.
 
 ## Technical constraints
@@ -169,3 +169,13 @@ Run `python3 scripts/install.py --restore` only when requested.
 
 Restoration returns the stock workspace indicator while preserving the saved
 team and asset cache.
+
+## Removal
+
+Use `python3 scripts/install.py --uninstall` only when the user asks to remove
+their installed plugin. It restores the stock workspace widget, removes the
+installed plugin and its own CLI symlink, and preserves saved teams, caches,
+shell backups, unrelated CLI files, and separate source checkouts.
+
+Verify removal support in temporary configurations; do not uninstall the user's
+live plugin merely to check a change.

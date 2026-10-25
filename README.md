@@ -4,7 +4,7 @@ Your Pokémon team in Omarchy's workspace bar. Six configurable slots, shared ac
 
 ![Animated Pokéspaces workspace indicators](docs/media/workspaces.gif)
 
-**0.1.0** · 649 Pokémon · 27 Poké Balls · No shiny variants
+**0.1.1** · 649 Pokémon · 27 Poké Balls · No shiny variants
 
 ## Install
 
@@ -60,7 +60,7 @@ pokespaces team set --slot 3 --pokemon umbreon --ball luxury-ball --json
 
 Names or Pokédex IDs work; omitted fields stay unchanged. Export with `pokespaces team show --json > team.json`; import with `pokespaces team apply --file team.json --json`. See [AGENTS.md](AGENTS.md) for automation details. Keep `~/.local/bin` on your `PATH`.
 
-## Update / restore
+## Update / restore / remove
 
 For native installations:
 
@@ -71,11 +71,19 @@ python3 ~/.config/omarchy/plugins/lilfrogdev.pokespaces/scripts/install.py
 
 For a manual checkout, run `git pull --ff-only` and `python3 scripts/install.py` from its directory.
 
-Restore the stock indicator without deleting your team or cache:
+Restore the stock indicator while keeping Pokéspaces installed:
 
 ```bash
 python3 "${XDG_CONFIG_HOME:-$HOME/.config}/omarchy/plugins/lilfrogdev.pokespaces/scripts/install.py" --restore
 ```
+
+Remove the installed plugin and its CLI:
+
+```bash
+python3 "${XDG_CONFIG_HOME:-$HOME/.config}/omarchy/plugins/lilfrogdev.pokespaces/scripts/install.py" --uninstall
+```
+
+Both preserve your team and cache. Removal also keeps shell backups and any separate source checkout.
 
 ## Notes
 

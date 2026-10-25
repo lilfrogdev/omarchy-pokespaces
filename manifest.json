@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "lilfrogdev.pokespaces",
   "name": "Pokéspaces",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "lilfrogdev",
   "description": "A six-Pokémon party for your workspaces, with animated Gen V icons and Poké Balls.",
   "kinds": ["bar-widget"],
